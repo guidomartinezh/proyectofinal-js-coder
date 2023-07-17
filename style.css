@@ -1,0 +1,42 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    text-align: center;
+    margin: 30px;
+}
+
+#userForm {
+    height: auto;
+    width: 60%;
+    background-color: rgba(58, 200, 60, 0.918);
+    background: linear-gradient(rgba(255, 255, 255, 0.813), rgb(7, 175, 113));
+    border: 3px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px auto; 
+    padding: 10px; 
+}
+
+label{
+    margin: 10px;
+    height: 30px;
+    width: 15%;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+}
+
+button{
+    background-color: rgba(180, 180, 180, 0.77);
+    margin: 10px;
+    height: auto;
+    width: auto;
+}
+
+
+
