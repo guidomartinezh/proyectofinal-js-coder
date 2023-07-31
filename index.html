@@ -4,21 +4,32 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="icon" type="image/png" href="./img/icons8-barra-con-pesas-50.png">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet"> 
     <link rel="stylesheet" href="style.css">
-    <title>Pre entrega 3 JS</title>
+    <title>Planet Fitness</title>
 </head>
 <body>
+    <header>
+        <nav>
+            <img src="./img/20181214075638.png" alt="">
+        </nav>
+    </header>
 
-    <h1>Información de los Usuarios</h1>
+    <h2>Ingreso de Usuarios</h2>
+
+    <section id="clima"></section>
 
     <form id="userForm">
-        <label for="nombreCompleto">Nombre completo:</label>
+        <label for="nombreCompleto">Nombre completo</label>
         <input type="text" id="nombreCompleto" required>
 
-        <label for="numSocio">Número de socio:</label>
+        <label for="numSocio">Número de socio</label>
         <input type="text" id="numSocio" required>
 
-        <label for="actividad">Actividad:</label>
+        <label for="actividad">Actividad</label>
         <select id="actividad" required>
             <option value="">Seleccione una actividad</option>
             <option value="1">Functional</option>
@@ -33,7 +44,17 @@
 
     <div id="usuariosContainer"></div>
 
+    <footer>
+        <p class="legal">Copyright © 2023 Planet Fitness, Inc.</p>
+    </footer>
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+
+
     <script src="main.js"></script>
+    <script src="fetchAPI.js"></script>
 </body>
 </html>
 
